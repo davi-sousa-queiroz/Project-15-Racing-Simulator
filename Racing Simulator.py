@@ -138,3 +138,6 @@ class Car:
                 print("\nLeaving Garage..")
                 time.sleep(1.5)
                 break
+
+    def menu(self):
+        print("\n1.\tRace 🏁\n2.\tRefuel ⛽️\n3.\tUpgrades ⬆️\n4.\tView Car 📊\n5.\tQuit")
