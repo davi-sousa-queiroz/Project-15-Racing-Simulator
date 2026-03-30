@@ -141,3 +141,16 @@ class Car:
 
     def menu(self):
         print("\n1.\tRace 🏁\n2.\tRefuel ⛽️\n3.\tUpgrades ⬆️\n4.\tView Car 📊\n5.\tQuit")
+
+print("\nWelcome to Racing Simulator! 🏎️")
+time.sleep(1.5)
+print("\nLet's Build your race car!")
+time.sleep(1.5)
+print("Enter car make: ")
+make = input("\n>> ")
+print("Enter car model: ")
+model = input("\n>> ")
+print("Enter car year: ")
+year = input("\n>> ")
+
+player_car = Car(make, model, year)
