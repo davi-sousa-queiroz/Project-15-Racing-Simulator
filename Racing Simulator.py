@@ -61,12 +61,12 @@ class Car:
                     print("\nAre you sure you want to purchase race suspension for 3000 CR? (y/n)")
                     choice = input("\n>> ").lower
                     if choice == "y":
-                            self.credits -= 3000
-                            self.performance += 234
-                            print("\nPurchase Successful!")
-                            time.sleep(1)
-                            print("\n-3000 Credits")
-                            print(f"Car Performance: {self.performance}")
+                        self.credits -= 3000
+                        self.performance += 234
+                        print("\nPurchase Successful!")
+                        time.sleep(1)
+                        print("\n-3000 Credits")
+                        print(f"Car Performance: {self.performance}")
                     if choice == "n":
                         continue
                 else:
