@@ -15,8 +15,8 @@ class Car:
     def car_info(self):
         print("\n============= YOUR 🏎️ CAR ===============")
         print(f"{self.make} {self.model} {self.year}"
-              f" fuel: {self.fuel} Car Performance: {self.performance}"
-              f" Credits: {self.credits}")
+              f"\nfuel: {self.fuel}\nCar Performance: {self.performance}"
+              f"\nCredits: {self.credits}")
 
     def race(self):
         if self.fuel >= 20:
