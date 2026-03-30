@@ -31,7 +31,7 @@ class Car:
                 bonus = self.performance * 10
                 self.credits += reward + bonus
                 time.sleep(1)
-                print("+10,000 Credits! 💰")
+                print(f"+{reward + bonus} Credits! 💰")
             elif winner == 2:
                 print("\nYou lost the race..")
                 self.credits -= 2000
