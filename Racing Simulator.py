@@ -50,7 +50,7 @@ class Car:
             self.credits -= 3000
             time.sleep(1)
 
-    def shop(self):
+    def upgrades(self):
         while True:
             print("\n1.\tRace suspension 🏎️\n2.\tRace Breaks 🛑\n3.\tRace Spoiler 🪽\n4.\tRace Tires 🛞\n5.\tRace Engine ⚙️💨\n6.\tLeave Shop")
             upgrade = input("\n>> ")
