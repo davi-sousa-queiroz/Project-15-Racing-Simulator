@@ -149,7 +149,7 @@ time.sleep(1.5)
 print("\nEnter car make: ")
 make = input("\n>> ").title()
 print("\nEnter car model: ")
-model = input("\n>> ")
+model = input("\n>> ").title()
 print("\nEnter car year: ")
 year = input("\n>> ")
 
