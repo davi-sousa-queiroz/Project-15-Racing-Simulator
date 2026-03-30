@@ -49,3 +49,92 @@ class Car:
             print("-3000 CR.")
             self.credits -= 3000
             time.sleep(1)
+
+    def shop(self):
+        while True:
+            print("\n1.\tRace suspension 🏎️\n2.\tRace Breaks 🛑\n3.\tRace Spoiler 🪽\n4.\tRace Tires 🛞\n5.\tRace Engine ⚙️💨\n6.\tLeave Shop")
+            upgrade = input("\n>> ")
+            if upgrade == "1":
+                if self.credits >= 3000:
+                    print("\nAre you sure you want to purchase race suspension for 3000 CR? (y/n)")
+                    choice = input("\n>> ").lower
+                    if choice == "y":
+                            self.credits -= 3000
+                            self.performance += 234
+                            print("\nPurchase Successful!")
+                            time.sleep(1)
+                            print("\n-3000 Credits")
+                            print(f"Car Performance: {self.performance}")
+                    if choice == "n":
+                        continue
+                else:
+                    print("\nNot enough Credits!")
+                    continue
+            elif upgrade == "2":
+                if self.credits >= 3500:
+                    print("\nAre you sure you want to purchase race breaks for 3500 CR? (y/n)")
+                    choice = input("\n>> ").lower
+                    if choice == "y":
+                            self.credits -= 3500
+                            self.performance += 313
+                            print("\nPurchase Successful!")
+                            time.sleep(1)
+                            print("\n-3500 Credits")
+                            print(f"Car Performance: {self.performance}")
+                    if choice == "n":
+                        continue
+                else:
+                    print("\nNot enough Credits!")
+                    continue
+            elif upgrade == "3":
+                if self.credits >= 4000:
+                    print("\nAre you sure you want to purchase race spoiler for 4000 CR? (y/n)")
+                    choice = input("\n>> ").lower
+                    if choice == "y":
+                            self.credits -= 4000
+                            self.performance += 402
+                            print("\nPurchase Successful!")
+                            time.sleep(1)
+                            print("\n-4000 Credits")
+                            print(f"Car Performance: {self.performance}")
+                    if choice == "n":
+                        continue
+                else:
+                    print("\nNot enough Credits!")
+                    continue
+            elif upgrade == "4":
+                if self.credits >= 4500:
+                    print("\nAre you sure you want to purchase race tires for 4500 CR? (y/n)")
+                    choice = input("\n>> ").lower
+                    if choice == "y":
+                            self.credits -= 4500
+                            self.performance += 517
+                            print("\nPurchase Successful!")
+                            time.sleep(1)
+                            print("\n-4500 Credits")
+                            print(f"Car Performance: {self.performance}")
+                    if choice == "n":
+                        continue
+                else:
+                    print("\nNot enough Credits!")
+                    continue
+            elif upgrade == "5":
+                if self.credits >= 5000:
+                    print("\nAre you sure you want to purchase Race Engine for 5000 CR? (y/n)")
+                    choice = input("\n>> ").lower
+                    if choice == "y":
+                            self.credits -= 5000
+                            self.performance += 674
+                            print("\nPurchase Successful!")
+                            time.sleep(1)
+                            print("\n-5000 Credits")
+                            print(f"Car Performance: {self.performance}")
+                    if choice == "n":
+                        continue
+                else:
+                    print("\nNot enough Credits!")
+                    continue
+            elif upgrade == "6":
+                print("\nLeaving Shop..")
+                time.sleep(1.5)
+                break
