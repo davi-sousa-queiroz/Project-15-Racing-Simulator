@@ -156,3 +156,23 @@ print("\nEnter car year: ")
 year = input("\n>> ")
 
 player_car = Car(make, model, year)
+
+
+playing = True
+
+while playing:
+    player_car.menu()
+    selection = input("\n>> ")
+    if selection == "1":
+        player_car.race()
+    elif selection == "2":
+        player_car.refuel()
+    elif selection == "3":
+        player_car.upgrades()
+    elif selection == "4":
+        player_car.car_info()
+    elif selection == "5":
+        print("\nThank's for playing Car Simulator!")
+        break
+    else:
+        print("\nNot a valid option!")
