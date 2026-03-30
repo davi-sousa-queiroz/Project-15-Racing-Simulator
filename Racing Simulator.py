@@ -107,7 +107,7 @@ class Car:
             elif upgrade == "4":
                 if self.credits >= 4500:
                     print("\nAre you sure you want to purchase race tires for 4500 CR? (y/n)")
-                    choice = input("\n>> ").lower
+                    choice = input("\n>> ").lower()
                     if choice == "y":
                         self.credits -= 4500
                         self.performance += 517
