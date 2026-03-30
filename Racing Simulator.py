@@ -135,6 +135,6 @@ class Car:
                     print("\nNot enough Credits!")
                     continue
             elif upgrade == "6":
-                print("\nLeaving Shop..")
+                print("\nLeaving Garage..")
                 time.sleep(1.5)
                 break
