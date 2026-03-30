@@ -27,7 +27,9 @@ class Car:
             winner = random.randint(1, 2)
             if winner == 1:
                 print("\nYou won the race!")
-                self.credits += 10000
+                reward = random.randint(5000, 10000)
+                bonus = self.performance * 10
+                self.credits += reward + bonus
                 time.sleep(1)
                 print("+10,000 Credits! 💰")
             elif winner == 2:
