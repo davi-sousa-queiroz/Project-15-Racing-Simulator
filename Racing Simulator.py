@@ -37,3 +37,15 @@ class Car:
         else:
             print("\nYour outta fuel champ.")
             time.sleep(1.5)
+
+    def refuel(self):
+        if self.credits < 3000:
+            print("\nYou need 3000 Credits to refuel! ⛽️")
+        else:
+            print(f"\nFilling up your {self.make}..")
+            time.sleep(2.5)
+            print(f"Your {self.model} has been refueled!")
+            time.sleep(1)
+            print("-3000 CR.")
+            self.credits -= 3000
+            time.sleep(1)
