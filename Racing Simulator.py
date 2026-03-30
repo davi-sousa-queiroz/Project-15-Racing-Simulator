@@ -150,7 +150,7 @@ print("\nEnter car make: ")
 make = input("\n>> ")
 print("\nEnter car model: ")
 model = input("\n>> ")
-print("Enter car year: ")
+print("\nEnter car year: ")
 year = input("\n>> ")
 
 player_car = Car(make, model, year)
