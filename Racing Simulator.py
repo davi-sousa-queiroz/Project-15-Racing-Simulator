@@ -56,6 +56,7 @@ class Car:
 
     def upgrades(self):
         while True:
+            print(f"\nYour Credits: {self.credits}")
             print("\n1.\tRace suspension 🏎️\n2.\tRace Breaks 🛑\n3.\tRace Spoiler 🪽\n4.\tRace Tires 🛞\n5.\tRace Engine ⚙️💨\n6.\tLeave Garage")
             upgrade = input("\n>> ")
             if upgrade == "1":
