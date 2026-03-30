@@ -13,7 +13,7 @@ class Car:
         self.credits = 0
 
     def car_info(self):
-        print("============= YOUR 🏎️ CAR ===============")
+        print("\n============= YOUR 🏎️ CAR ===============")
         print(f"{self.make} {self.model} {self.year}"
               f"fuel: {self.fuel} Car Performance: {self.performance}")
 
