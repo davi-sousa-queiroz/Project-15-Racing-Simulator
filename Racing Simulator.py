@@ -49,6 +49,7 @@ class Car:
             print("-3000 CR.")
             self.credits -= 3000
             time.sleep(1)
+            self.fuel = 100
 
     def upgrades(self):
         while True:
