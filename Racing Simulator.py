@@ -7,3 +7,8 @@ class Car:
         self.year = year
         self.fuel = 100
         self.performance = 50
+
+    def car_info(self):
+        print("============= YOUR CAR ===============")
+        print(f"{self.make} {self.model} {self.year}"
+              f"fuel: {self.fuel} Car Performance: {self.performance}")
